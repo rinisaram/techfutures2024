@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.brand-logo {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after {
+    width: 100%;
+}
+
+.section-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    text-align: left;
+    
+}
+.content {
+    max-width: 60%;
+}
+
+.robot-image {
+    max-width: 35%;
+    
+}
+
+.robot {
+    width: 100%;
+    height: auto;
+    margin-top: 1px;
+    margin-left: 50px;
+}
+
+.welcomee{
+    margin-bottom: 20px;
+    width: 60%;
+
+}
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.schedule{
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+.tickets {
+    height: 2%;
+    margin-bottom : 20px;
+    margin-left: 350px;
+   
+}
