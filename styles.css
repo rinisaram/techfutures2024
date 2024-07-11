@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+           
 }
 
 .navbar {
@@ -98,4 +99,100 @@ section {
     margin-bottom : 20px;
     margin-left: 350px;
    
+}
+.swiper {
+    width: 80%; /* Adjust the container width if needed */
+    height: 300px; /* Adjust the container height if needed */
+    margin: auto;
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 400px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for navigation arrows */
+.swiper-button-next, .swiper-button-prev {
+    color: #000; /* Color of the arrows */
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 20px; /* Size of the arrow icons */
+}
+/* Change the background color of the slides */
+.swiper-slide {
+    background-color: #FF9737; /* Set the desired background color */
+}
+.bodyy {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.containerrr {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+.headerr {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #FF9737;
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.register-link {
+    display: inline-block;
+    background-color: #FF9737;
+    color: #fff;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.register-link:hover {
+    background-color: #e88629;
+}
+.contact-info {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #555;
+}
+.contact-info p {
+    margin: 10px 0;
+}
+.contact-info a {
+    color: #FF9737;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
 }
