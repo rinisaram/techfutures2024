@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IEEE TECH FUTURES 2024</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,7 +34,73 @@
     <img src="tickets.png" alt="tickets" class="tickets">
     <section id="schedule">
     <img src="schedule.png" alt="schedule" class="schedule">
+    
 </section>
-    <script src="script.js"></script>
+<section id="speakers">
+<div class="swiper home-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="p1.png" alt="Speaker 1"></div>
+        <div class="swiper-slide"><img src="p2.png" alt="Speaker 2"></div>
+        <div class="swiper-slide"><img src="p3.png" alt="Speaker 3"></div>
+        <div class="swiper-slide"><img src="p4.png" alt="Speaker 3"></div>
+
+        <div class="swiper-slide"><img src="p1.png" alt="Speaker 1"></div>
+        <div class="swiper-slide"><img src="p2.png" alt="Speaker 2"></div>
+        <div class="swiper-slide"><img src="p3.png" alt="Speaker 3"></div>
+        <div class="swiper-slide"><img src="p4.png" alt="Speaker 3"></div>
+
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+</section>
+<section id="contact">
+
+<div class="bodyy">
+    <div class="containerrr">
+        <div class="headerr">
+            Registration and Contact Information
+        </div>
+        <a href="https://www.ieeetechfutures2024/register" class="register-link">Register Now</a>
+        <div class="contact-info">
+            <p>For any inquiries, please contact:</p>
+            <p>Email: <a href="mailto:info@ieeetechfutures2024.org">info@ieeetechfutures2024.org</a></p>
+            <p>Phone: <a href="tel:+919876543210">+91 9876543210</a></p>
+        </div>
+        <div class="footer">
+            Designed by Rini for PixelSmith - RENAISSANCE 5.0 
+
+        </div>
+    </div>
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".home-slider", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    });
+</script>
 </body>
 </html>
